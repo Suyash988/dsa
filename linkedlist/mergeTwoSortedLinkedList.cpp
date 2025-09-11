@@ -10,7 +10,7 @@
  */
 class Solution {
 public:
-    ListNode* mergeTwoList(ListNode* l1, ListNode* l2) {
+    ListNode* mergeTwoLists (ListNode* l1, ListNode* l2) {
         if(l1== NULL) return l2;
         if(l2 == NULL) return l1;
         if(l1->val > l2->val) std::swap(l1,l2);  
