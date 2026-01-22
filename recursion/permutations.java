@@ -32,7 +32,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class permutations {
     public void findPermutations(int index, int[] nums,List<List<Integer>> ans ){
        // base case 
        if(index == nums.length){
